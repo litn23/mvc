@@ -1,0 +1,45 @@
+/** navbar.css */
+
+/*
+ * Prepare variables.
+ */
+ :root {
+    --color-one: #fcd1d7;
+    --color-two: #ffe7de;
+    --color-three: #e9b1cd;
+    --color-four: #c3829e;
+    --color-five: #562135;
+    --text-one: #ffffff;
+    --text-2: #000000;
+
+}
+
+ .navbar {
+  background-color: var(--color-five);
+  font-size: 2em;
+}
+
+.navbar a {
+  display: inline-block;
+  width: 125px;
+  padding: 2px;
+  color: var(--text-color);
+  text-align: center;
+  text-decoration: none;
+  color: var(--color-two);
+}
+
+.navbar a:hover {
+  color: var(--color-five);
+  background-color: var(--color-one);
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li {
+  display: inline;
+}

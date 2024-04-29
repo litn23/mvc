@@ -1,0 +1,14 @@
+{% extends "base.html.twig" %}
+
+{% block body %}
+    <div class="main-box">
+        <h1>API-List</h1>
+
+        <ul>
+            {% for route, description in jsonRoutes %}
+                <li><strong>{{ route }}</strong>: {{ description }}</li>
+            {% endfor %}
+        </ul>
+    </div>
+
+{% endblock %}

@@ -1,0 +1,26 @@
+/** footer.css */
+
+:root {
+    --color-one: #fcd1d7;
+    --color-two: #ffe7de;
+    --color-three: #e9b1cd;
+    --color-four: #c3829e;
+    --color-five: #562135;
+    --text-one: #ffffff;
+    --text-two: #000000;
+
+}
+
+header {
+    position: relative;
+    height: 100px;
+    font-size: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.site-title{
+    color: var(--color-five);
+}

@@ -1,0 +1,28 @@
+{% extends "base.html.twig" %}
+
+{% block title %}api{% endblock %}
+
+{% block body %}
+    <div class="main-box">
+        <div class="two-col-layout">
+            <aside class="aside1">
+                <h1>About</h1>
+                <p>
+                    I denna kursen skall vi lära oss programmera webbapplikationer 
+                    på ett objektorienterat sätt med fokus på det arkitekturella 
+                    designmönstret MVC.
+                </p>
+
+            </aside>
+            <aside class="aside2">
+                <h2>Kursrepo:</h2>
+                <a href="https://github.com/dbwebb-se/mvc">Länk till kursrepo</a>
+                <h2>Min repo:</h2>
+                <a href="https://github.com/litn23/MVC">Länk till min repo</a>
+            </aside>
+        </div>
+        <a href="{{ asset('img/synfony.png') }}">
+            <img src="{{ asset('img/symfony.png') }}" class="image" alt="">
+        </a>
+    </div>
+{% endblock %}
